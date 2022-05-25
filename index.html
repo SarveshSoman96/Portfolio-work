@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="Images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- js link  -->
+    <script src="JS/script.js" defer></script>
+
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Sarvesh Portfolio</title>
+</head>
+<body onload="onPageLoad()">
+    <!-- website preloader -->
+    <div class="loader">
+        <div class="loader_container">
+            <div class="ring ring1">
+                <div class="circle"></div>
+            </div>
+            <div class="ring ring2">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+    <!-- website preloader -->
+
+    <a href="" id="top"></a>
+    <!-- home section start -->
+    <section class="landing_home">
+        <nav id="navigation" class="flex_1">
+            <img src="Assets/logo.png" id="logo_img" alt="">
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="flex_2" id="navs">
+                <li class="nav-link"><a href="">HOME</a></li>
+                <li class="nav-link"><a href="#about">BIO</a></li>
+                <li class="nav-link"><a href="#work">WORK</a></li>
+                <li class="nav-link"><a href="#skills">SKILLS</a></li>
+                <li class="nav-link"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="middle_content flex_1">
+            <div class="content_texts">
+                <p id="first_para">WELCOME</p>
+                <h1>I Am A <span>WEB DEVELOPER</span></h1>
+                <p id="sec_para"><span></span>I love to make ideas come alive on internet.</p>
+            </div>
+            <div class="profle_img">
+                <img src="Assets/Beginner.jpg" alt="" class="img_std">
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about_me">
+        <a href="" id="about"></a>
+        <h1 id="about_heading">ABOUT ME</h1>
+        <div class="about_me_content flex_1">
+            <div class="about_image" data-aos="fade-right">
+                <img src="Assets/profile_img.jpg" alt="" class="img_std">
+            </div>
+            <div class="about_content" data-aos="fade-left">
+                <p>Hello all! My name is <span>"Sarvesh Chandrakant Soman."</span> I have a Bachlor of Engineering degree in Mechanical. Previously, I worked as Tooling Engineer in a MNC company until Mar 2021. From last few months, I developed my interests towards programming and web. I completed a web full stack course from Seven Mentor Institute in Shivajinagar, Pune. Independently, I worked on some of projects that are added below. Im now looking for a junior level position as a full stack developer position to kick start my carrier and learn among profesionals.</p>
+
+                <a href="Sarvesh Soman CV.pdf" download id="cv_download_btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- work section start -->
+    <section class="work">
+        <a href="" id="work"></a>
+        <h1>MY WORK</h1>
+        <div class="work-item item_1 flex_1" data-aos="fade-up">
+            <div class="work_div flex_4 live_proj">
+                <a href="http://kazizubair.shreeganeshmurti.in/" target="_blank">Live project Work</a>
+            </div>
+            <div class="work_div flex_4 html_css">
+                <a href="https://coffeeshop-site-static.herokuapp.com/" target="_blank">Coffee shop site <br> HTML & CSS</a>
+            </div>
+        </div>
+
+        <div class="work-item item_2 flex_1" data-aos="fade-up">
+            <div class="work_div flex_4 bootstrap">
+                <a href="https://travel-company-bootstrap-proj.herokuapp.com/" target="_blank">Bootstrap Site <br> Travel Company</a>
+            </div>
+            <div class="work_div flex_4 angular_site">
+                <a href="https://chipper-duckanoo-6b4d14.netlify.app" target="_blank">Angular Yoga Website</a>
+            </div>
+        </div>
+
+        <div class="flex_4 work_angular_dash">
+            <a href="https://celebrated-sable-5f3ed4.netlify.app/" target="_blank">Angular Dashobard</a>
+        </div>
+    </section>
+
+    <!-- work section ends -->
+
+    <!-- skills section start -->
+    <section class="skills">
+        <a href="" id="skills"></a>
+        <h1>SKILLS</h1>
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                FRONT END SKILLS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/html 5.png" alt="html 5 image">
+                    <img src="Assets/css 3.png" alt="css 3 image">
+                    <img src="Assets/javascript.png" alt="javascript image">
+                    <img src="Assets/jquery.png" alt="jquery image">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                FRONT END FRAMEWORKS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/angular.png" alt="angular image" srcset="" id="angular_img">
+                    <img src="Assets/bootstrap.png" alt="bootstrap image" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                BACK END SKILLS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/express.png" alt="express image" srcset="">
+                    <img src="Assets/node js.png" alt="node js image" srcset="">
+                    <img src="Assets/ajax.png" alt="ajax image" srcset="">
+                    <img src="Assets/json.png" alt="json image" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                DATABASES SKILLS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/mysql.png" alt="mysql image" srcset="">
+                    <img src="Assets/mongodb.png" alt="mongo db image" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                VERSION CONTROL SYSTEM SKILLS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/github.png" alt="mysql image" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-item" data-aos="fade-up">
+            <div class="skills-item-header flex_3">
+                TEXT EDITORS
+            </div>
+            <div class="skills-item-body">
+                <div class="skills-item-body-content">
+                    <img src="Assets/sublime.png" alt="mysql image" srcset="">
+                    <img src="Assets/vscode.png" alt="mongo db image" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section end -->
+
+    <!-- contact section start -->
+    <section class="contact">
+        <a href="" id="contact"></a>
+        <h1>CONTACT ME</h1>
+        <div class="contact_main flex_4">
+            <div class="con_sections address flex_4" data-aos="fade-right">
+                <p><i class="fa-solid fa-location-dot"></i>Flat no 4, Pratik Appt.,Lane no 8, <br>  Vanaz Corner, Kothrud, <br> Pune - 411038.</p>
+            </div>
+            <div class="con_sections email flex_4" data-aos="zoom-in">
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:sarveshsoman1809@gmail.com">sarveshsoman1809@gmail.com</a></p>
+            </div>
+            <div class="con_sections phone flex_4" data-aos="fade-left">
+                <p><i class="fa-solid fa-mobile-screen"></i><a href="tel:9405848382">9405848382</a></p>
+            </div>
+        </div>
+        <div class="contact_links flex_4">
+            <div class="links contact_github">
+                <a href="https://github.com/SarveshSoman96" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <span>Github</span>
+            </div>
+            <div class="links contact_linkdin">
+                <a href="https://www.linkedin.com/in/sarvesh-soman-b72021169" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <span>LinkdIn</span>
+            </div>
+            <div class="links contact_whatsapp">
+                <a href="http://wa.me/9405848382" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <span>Whatsapp</span>
+            </div>
+        </div>
+    </section>
+
+    <button id="top_btn"><a href="#top"><i class="fa-solid fa-arrow-up"></i></a></button>
+    <!-- contact section end -->
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
