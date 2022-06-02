@@ -22,9 +22,17 @@ skillItemHeaders.forEach(skillItemHeader => {
 
 function onPageLoad(){
    const loader =  document.querySelector(".loader");
+   const landingPara1 = document.getElementById("landing_first_para");
+   const landingPara2 = document.getElementById("landing_sec_para");
+   const landingRole = document.getElementById("landing_role");
+   const aboutHeading = document.getElementById("about_heading");
    setTimeout(() => {
         loader.style.display = "none";
    }, 2000);
+   landingRole.classList.add("landing_tagline")
+   landingPara2.classList.add("landing_role")
+   landingPara1.classList.add("landing_greet")
+   aboutHeading.classList.add("about_heading_animate")
 }
 
 AOS.init({
