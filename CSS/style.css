@@ -327,13 +327,13 @@ html{
     font-weight: 800;
 }
 .work .work-item .live_proj{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Kazi_image.PNG) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Kazi_image.jpg) no-repeat center;
 }
 .work .work-item .html_css{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Coffe_shop_bg.png) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Coffe_shop_bg.jpg) no-repeat center;
 }
 .work .work-item .bootstrap{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Travel_site_bg.png) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Travel_site_bg.jpg) no-repeat center;
 }
 .work .work-item .angular_site{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Yoga\ website\ angular.PNG) no-repeat center;
