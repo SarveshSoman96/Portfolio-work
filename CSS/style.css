@@ -10,6 +10,10 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    max-width: 100vw;
+    background-color: #2D2E2E;
+}
 .flex_1
 {
     display: flex;
@@ -40,7 +44,7 @@ html{
     background: rgb(46, 46, 46);
     position: fixed;
     inset: 0;
-    z-index: 10;
+    z-index: 100;
 }
 .loader_container{
     position: absolute;
@@ -116,10 +120,11 @@ html{
 /* preloader end */
 /* landing section start */
 .landing_home{
-    width: 100%;
+    max-width: 100vw;
     height: 90vh;
     /* background-color: #0a0908; */
-    background-color: #2d3142;
+    /* background-color: #2d3142; */
+    background-color: #2B2C2C;
     position: relative;
 }
 .landing_home nav{
@@ -165,8 +170,7 @@ html{
     width: 50%;
     height: 60%;
     word-spacing: 5px;
-    color: #6B4E71;
-    line-height: 4rem;
+    /* line-height: 4rem; */
     overflow: hidden;
 }
 .landing_greet, .landing_role, .landing_tagline{
@@ -189,26 +193,25 @@ html{
     from{ transform: translateX(-100%);}
     to{transform: translateX(0%);}
 }
-.landing_home .content_texts h1 span {
-    color: #e7404e;
-    font-size: 2.8rem;
+/* .landing_home .content_texts h1{
+    margin-block: 0.5rem;
+    color: #BAB599;
+} */
+.landing_home .content_texts p{
+    color: #BAB599;
 }
-.landing_home .content_texts p:nth-of-type(2) span{
-    display: inline-block;
-    width: 40px;
-    height: 1px;
-    margin: 0 0.7em 0.2em 0;
-    background-color: #e7404e;
+.landing_home .content_texts h1 {
+    color: #e7404e;
+    font-size: 3rem;
+    margin-block: 0.5rem;
 }
 /* landing section end */
 
 /* about section start */
 .about_me{
-    width: 100%;
+    max-width: 100vw;
     height: 80vh;
     position: relative;
-    background-color: #3A4454;
-    /* background-color: #3A4454; */
 }
 .about_me h1#about_heading{
     font-size: 3.2rem;
@@ -246,11 +249,13 @@ html{
     text-indent: 55px;
     font-size: 1.1rem;
     text-align: justify;
-    color: #FAEDCA;
+    /* color: #FAEDCA; */
+    color: #BAB599;
     letter-spacing: 1px;
 }
 .about_me .about_me_content .about_content p span{
     color: #E7404D;
+    font-weight: 800;
 }
 .about_me .about_me_content .about_content a#cv_download_btn{
     display: inline-block;
@@ -270,9 +275,9 @@ html{
 
 /* work section start */
 .work{
-    width: 100%;
+    max-width: 100vw;
     min-height: 100vh;
-    background-color: #3A4454;
+    /* background-color: #3A4454; */
     /* background-color: #292928; */
     padding: 2% 0;
 }
@@ -349,10 +354,10 @@ html{
 
 /* skills section start */
 .skills{
-    width: 100%;
+    max-width: 100vw;
     min-height: 60vh;
     /* background-color: #8EAABA; */
-    background-color: #3A4454;
+    /* background-color: #3A4454; */
     /* background-color: #292928; */
     padding: 2% 0;
 }
@@ -368,7 +373,7 @@ html{
     margin: 1.2rem auto;
 }
 .skills .skills-item .skills-item-header{
-    background-color: #FAEDCA;
+    background-color: #dfd9cb;
     padding: 0.5rem 3rem;
     border-radius: 3px 3px 0 0;
     position: relative;
@@ -393,7 +398,7 @@ html{
 }
 .skills .skills-item .skills-item-body .skills-item-body-content{
     padding: 0.5rem 3rem;
-    border: 1px solid #3A4454;
+    border: 0.5px solid #dfd9cb;
     border-radius: 0 0 3px 3px;
 }
 .skills .skills-item .skills-item-body .skills-item-body-content img{
@@ -409,10 +414,11 @@ html{
 
 /* contact section start */
 .contact{
-    width: 100%;
+    max-width: 100vw;
     min-height: 50vh;
-    background-color: #2d3142;
-    /* background-color: black; */
+    /* background-color: #2d3142; */
+    background-color: #2B2C2C;
+
     padding: 2% 0;
 }
 .contact h1{
@@ -447,8 +453,6 @@ html{
 }
 .contact .contact_main .con_sections:hover{
     transform: scale(1.2);
-    background-color: rgba(46, 46, 46,0.5);
-    border-radius: 10px;
 }
 .contact .contact_links{
     width: 50%;
@@ -536,10 +540,11 @@ html{
         position: fixed;
         z-index: 9;
         top: 0;
+        right: 0;
         left: -100%;
         flex-direction: column;
         background-color: #e7404e;
-        width: 100%;
+        width: 100vw;
         text-align: center;
         transition: 0.3s ;
         padding: 2% 0;
@@ -553,8 +558,8 @@ html{
     .landing_home nav .hamburger{
         display: block;
     }
-    .landing_home .middle_content{
-        width: 90%;
+    .landing_home .content_texts{
+        width: 60%;
     }
     .landing_home nav ul#navs{
         gap: 4rem;
