@@ -249,8 +249,8 @@ body{
     text-indent: 55px;
     font-size: 1.1rem;
     text-align: justify;
-    /* color: #FAEDCA; */
     color: #BAB599;
+    line-height: 1.7rem;
     letter-spacing: 1px;
 }
 .about_me .about_me_content .about_content p span{
@@ -314,7 +314,7 @@ body{
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(46, 46, 46,0.5);
+    background-color: rgba(46, 46, 46,0.8);
     z-index: 1;
     transition: transform 0.5s;
     transform: rotateY(-90deg);
@@ -370,7 +370,7 @@ body{
     margin: 1.2rem auto;
 }
 .skills .skills-item .skills-item-header{
-    background-color: #dfd9cb;
+    background-color: #d6d2ce;
     padding: 0.5rem 3rem;
     border-radius: 3px 3px 0 0;
     position: relative;
