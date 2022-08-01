@@ -8,7 +8,6 @@ skillItemHeaders.forEach(skillItemHeader => {
             currentActiveHeader.nextElementSibling.style.maxHeight = 0;
         }
 
-
         skillItemHeader.classList.toggle("active")
         const skillItemActiveBody = skillItemHeader.nextElementSibling;
         if(skillItemHeader.classList.contains("active")){

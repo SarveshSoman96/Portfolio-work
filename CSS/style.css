@@ -301,16 +301,9 @@ body{
     text-align: center;
     position: relative;
 }
-.work .work_angular_dash{
-    width: 20%;
-    height: 25vh;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-}
 
-.work .work-item .work_div::before,.work .work_angular_dash::before{
+
+.work .work-item .work_div::before{
     content: "";
     position: absolute;
     inset: 0;
@@ -319,10 +312,10 @@ body{
     transition: transform 0.5s;
     transform: rotateY(-90deg);
 }
-.work .work-item .work_div:hover::before,.work .work_angular_dash:hover::before{
+.work .work-item .work_div:hover::before{
     transform: rotateY(0deg);
 }
-.work .work-item .work_div a,.work .work_angular_dash a{
+.work .work-item .work_div a{
     text-decoration: none;
     color: #E7404D;
     font-size: 1.2rem;
@@ -342,10 +335,13 @@ body{
 .work .work-item .angular_site{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Yoga\ website\ angular.PNG) no-repeat center;
 }
-.work .work_angular_dash{
+.work .work-item .work_angular_dash{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Angular_dashboard.PNG) no-repeat center;
 }
-.work .work-item .live_proj,.work .work-item .html_css,.work .work-item .bootstrap,.work .work-item .angular_site,.work .work_angular_dash{
+.work .work-item .weaher-app-react{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/weather\ app\ react.PNG) no-repeat center;
+}
+.work .work-item .live_proj,.work .work-item .html_css,.work .work-item .bootstrap,.work .work-item .angular_site,.work .work-item .work_angular_dash, .work .work-item .weaher-app-react{
     background-size: cover;
 }
 
@@ -517,9 +513,6 @@ body{
         width: 54%;
         gap: 6em;
     }
-    .work .work_angular_dash{
-        width: 25%;
-    }
     .contact{
         height: 47vh;
     }
@@ -588,10 +581,6 @@ body{
         height: 20vh;
         gap: 4em;
         margin: 3% auto;
-    }
-    .work .work_angular_dash{
-        width: 35%;
-        height: 20vh;
     }
     .skills .skills-item{
         max-width: 80%;
@@ -704,16 +693,12 @@ body{
         justify-content: center;
         flex-direction: column;
     }
-    .work .work-item .work_div a,.work .work_angular_dash a{
+    .work .work-item .work_div a{
         font-size: 1rem;
         line-height: 1.1rem;
         font-weight: 500;
     }
-    .work .work_angular_dash{
-        width: 60%;
-        height: 19vh;
-        margin: 2% auto;
-    }
+
     .skills h1{
         font-size: 2.3rem;
         letter-spacing: 1px;
@@ -853,15 +838,10 @@ body{
        justify-content: center;
        flex-direction: column;
    }
-   .work .work-item .work_div a,.work .work_angular_dash a{
+   .work .work-item .work_div a{
        font-size: 1rem;
        line-height: 1.1rem;
        font-weight: 500;
-   }
-   .work .work_angular_dash{
-       width: 60%;
-       height: 19vh;
-       margin: 2% auto;
    }
    .skills h1{
        font-size: 2.3rem;
