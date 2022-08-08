@@ -332,16 +332,16 @@ body{
 .work .work-item .bootstrap{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Travel_site_bg.jpg) no-repeat center;
 }
-.work .work-item .angular_site{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Yoga\ website\ angular.PNG) no-repeat center;
+.work .work-item .react_blog{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/react\ blog\ app.PNG) no-repeat center;
 }
-.work .work-item .work_angular_dash{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/Angular_dashboard.PNG) no-repeat center;
+.work .work-item .redux_shopping{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects//Redux\ shopping\ app.PNG) no-repeat center;
 }
 .work .work-item .weaher-app-react{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Projects/weather\ app\ react.PNG) no-repeat center;
 }
-.work .work-item .live_proj,.work .work-item .html_css,.work .work-item .bootstrap,.work .work-item .angular_site,.work .work-item .work_angular_dash, .work .work-item .weaher-app-react{
+.work .work-item .live_proj,.work .work-item .html_css,.work .work-item .bootstrap,.work .work-item .react_blog,.work .work-item .redux_shopping, .work .work-item .weaher-app-react{
     background-size: cover;
 }
 
